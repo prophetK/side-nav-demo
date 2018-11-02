@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>right nav style</title>
+	<link rel="stylesheet" type="text/css" href="./style_d.css">
+</head>
+<body>
+	<div class="nav-right">
+		<div id="layer-option" onclick="popshow()"></div>
+		<div id="service"></div>
+	</div>
+	
+	<div id="layer-pop" onmouseover="pophang()" onmouseout="disappear()">
+		<div class="layer-container">
+			<div class="layer-item">
+			<a href="javascript:void(0);">
+				<div class="tag1"></div>
+				<span class="layer-tips">影像</span>
+			</a>
+			<a href="javascript:void(0);">
+				<div class="tag2"></div>
+				<span class="layer-tips">地形</span>
+			</a>
+			<a href="javascript:void(0);">
+				<div class="tag3"></div>
+				<span class="layer-tips">三维</span>
+			</a>
+		    </div>
+	    </div>
+
+		<div class="layer-options">temp1</div>
+		<div class="layer-options">temp2</div>
+		<div class="layer-options">temp3</div>
+	</div>
+
+    <script src="./layer_pop.js"></script>
+</body>
+</html>
